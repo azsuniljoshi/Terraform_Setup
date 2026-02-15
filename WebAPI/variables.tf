@@ -7,5 +7,5 @@ variable "resource_group_name" {
 }
 
 variable "app_name" {
-  default = "app-azwebapi-centralasia-dev-001"
+  default = "app-azwebapi-eastasia-dev-001"
 }

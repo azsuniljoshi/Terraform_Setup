@@ -1,12 +1,7 @@
 provider "azurerm" {
   features {}
-   subscription_id = "fab39a42-3122-457f-8903-c6e75c7ac237"
+   subscription_id = "28982ea3-73ca-49fc-8033-956382e33a89"
 }
-
-# resource "azurerm_resource_group" "rg" {
-#   name     = var.resource_group_name
-#   location = var.location
-# }
 
 resource "azurerm_service_plan" "asp" {
   name                = "${var.app_name}-asp"
